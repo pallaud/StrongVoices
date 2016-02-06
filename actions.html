@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title> Strong voice </title>
+
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+  <div class="background">
+  </div>
+
+
+
+  <nav class="lighten-1" role="navigation">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+  <ul class="nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="./index.html">Home</a></li>
+    <li role="presentation"><a href="#">About us</a></li>
+    <li role="presentation"><a href="./category.html">Find Your Words</a></li>    
+    <li role="presentation"><a href="./sentence.html">Make Your Own Sentence</a></li>
+    <li role="presentation"><a href="./vocabulary.html">My Vocabulary</a></li>
+  </ul>
+
+  <div class="content">
+    <h1 class="name"> Actions </h1>
+  </div>
+
+
+
+    <div class="marketing">
+
+      <div class="row">
+        <div class="beginning">
+          <img class="img-circle" src='./actions/walk.png' width="140" height="140">
+          <h2><strong>Walk<strong></h2>
+          <p>Going somewhere?</p>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/go.png" width="140" height="140">
+          <h2><strong>Go<strong></h2>
+          <p>Going somewhere?</p>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/run.png" width="140" height="140">
+          <h2><strong>Run<strong></h2>
+          <p>In a rush?</p>
+        </div>
+
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/open.png" width="140" height="140">
+          <h2><strong>Open<strong></h2>
+          <p>Want something?</p>
+        </div>
+
+
+        <div class="beginning">
+          <img class="img-circle" src="./actions/close.png" width="140" height="140">
+          <h2><strong>Close<strong></h2>
+          <p>Want it gone?</p>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/eat.png" width="140" height="140">
+          <h2><strong>Eat<strong></h2>
+          <p>Hungry?</p>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/sleep.jpg" width="140" height="140">
+          <h2><strong>Sleep<strong></h2>
+          <p>Tired?</p>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src="./actions/clean.jpg" width="140" height="140">
+          <h2><strong>Clean<strong></h2>
+          <p>Dirty?</p>
+        </div>
+      </div>
+
+
+        <!-- Speech Synthesis -->
+        <div class="speech">
+
+
+          <div class="title">
+             <h3 class="name"> I want to </h3>
+          </div>
+
+          <p id="msg"></p>
+
+          <input type="text" name="speech-msg" id="speech-msg" x-webkit-speech>
+
+
+          <div class="option">
+            <h4><label for="voice"></label></h4>
+            <h4><select name="voice" id="voice"></select></h4>
+          </div>
+          <div class="option">
+            <h4><label for="volume">Volume</label></h4>
+            <h4><input type="range" min="0" max="1" step="0.1" name="volume" id="volume" value="1"></h4>
+          </div>
+          <h5><button id="speak" class="btn-large waves-effect wave-light cyan">Speak</button></h5>
+
+           <script src="js/speechsynthesis.js"></script>
+          
+        </div>
+
+
+</body>
+
+
+</HTML>

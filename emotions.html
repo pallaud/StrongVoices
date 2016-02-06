@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title> Strong voice </title>
+
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+  <div class="background">
+  </div>
+
+
+
+  <nav class="lighten-1" role="navigation">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+  <ul class="nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="./index.html">Home</a></li>
+    <li role="presentation"><a href="#">About us</a></li>
+    <li role="presentation"><a href="./category.html">Find Your Words</a></li>    
+    <li role="presentation"><a href="./sentence.html">Make Your Own Sentence</a></li>
+    <li role="presentation"><a href="./vocabulary.html">My Vocabulary</a></li>
+  </ul>
+
+  <div class="content">
+    <h1 class="name"> Emotions </h1>
+  </div>
+
+
+    <div class="marketing">
+
+      <div class="row">
+        <div class="beginning">
+          <img class="img-circle" src='.\emotions\happy.jpg' width="140" height="140">
+          <h2><strong>Happy<strong></h2>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\sad.jpg" width="140" height="140">
+          <h2><strong>Sad<strong></h2>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\excited.jpg" width="140" height="140">
+          <h2><strong>Excited<strong></h2>
+        </div>
+
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\annoyed.png" width="140" height="140">
+          <h2><strong>Annoyed<strong></h2>
+        </div>
+
+
+        <div class="beginning">
+          <img class="img-circle" src=".\emotions\relieved.png" width="140" height="140">
+          <h2><strong>Relieved<strong></h2>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\sleepy.png" width="140" height="140">
+          <h2><strong>Sleepy<strong></h2>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\shocked.png" width="140" height="140">
+          <h2><strong>Shocked<strong></h2>
+        </div>
+
+        <div class="follow">
+          <img class="img-circle" src=".\emotions\proud.jpg" width="140" height="140">
+          <h2><strong>Proud<strong></h2>
+        </div>
+
+    </div>
+
+        <!-- Speech Synthesis -->
+        <div class="speech">
+
+
+          <div class="title">
+             <h3 class="name"> I am feeling </h3>
+          </div>
+
+          <p id="msg"></p>
+
+          <input type="text" name="speech-msg" id="speech-msg" x-webkit-speech>
+
+
+          <div class="option">
+            <h4><label for="voice"></label></h4>
+            <h4><select name="voice" id="voice"></select></h4>
+          </div>
+          <div class="option">
+            <h4><label for="volume">Volume</label></h4>
+            <h4><input type="range" min="0" max="1" step="0.1" name="volume" id="volume" value="1"></h4>
+          </div>
+          <h5><button id="speak" class="btn-large waves-effect wave-light cyan">Speak</button></h5>
+
+           <script src="js/speechsynthesis.js"></script>
+          
+        </div>
+
+
+</body>
+
+
+</HTML>

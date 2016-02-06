@@ -1,0 +1,431 @@
+.background {
+  
+  /* Position the background fixed to all four sides of the screen */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  /* Make sure that the background is behind the content */
+  z-index: -1;
+
+  /* set the color of the background to gray */
+  background-color: #FFC8C8;
+  background-size: cover;
+}
+
+p1{
+  font-size: 18px;
+  color: #3E4149;
+}
+
+h1.name{
+
+  margin-top: 40px;
+  font-size: 60px;
+}
+
+h1.title{
+
+  margin-top: 40px;
+  font-size: 120px;
+}
+
+h2{
+  font-size: 32px;
+  color:#3E4149;
+}
+
+h3{
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+}
+
+h4{
+  font-size:24px;
+  font-style: normal;
+}
+
+h5.speech{
+
+  font-size: 24px;
+
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+
+.speech {
+
+
+  /* Make the content take up half of the screen horizontally, but not larger than 500px */
+  width: 60%;
+  max-width: 800px;
+
+  /* put a margin to the top and bottom of 100px, and center the content vertically */
+  margin: 5px auto;
+  margin-bottom: 50px;
+
+  /* put a border around the text content */
+  padding: 10px;
+
+  /* Make the content's background white */
+  background-color: transparent;
+
+  /* center align all of the text */
+  color: #3E4149;
+
+
+}
+
+.content {
+
+  /* Make the content take up half of the screen horizontally, but not larger than 500px */
+  width: 70%;
+  max-width: 800px;
+
+  font-size: 24px;
+  /* put a margin to the top and bottom of 100px, and center the content vertically */
+  margin: 30px auto;
+
+  /* put a border around the text content */
+  padding: 20px;
+
+  /* Make the content's background white */
+  background-color: transparent;
+
+  /* center align all of the text */
+  text-align: center;
+  color: #3E4149;
+
+  font-family: 'Indie Flower', cursive;
+}
+
+
+.newtable {
+
+  /* Make the content take up half of the screen horizontally, but not larger than 500px */
+  width: 80%;
+  max-width: 1000px;
+
+  font-size: 24px;
+  /* put a margin to the top and bottom of 100px, and center the content vertically */
+  margin: 50px auto;
+
+  /* put a border around the text content */
+  padding: 20px;
+
+  /* Make the content's background white */
+  background-color: #ffebee ;
+
+  /* center align all of the text */
+  text-align: center;
+  color: #3E4149;
+
+
+
+  /* add a white border and drop shadow to the photo */
+  box-shadow: 0px 2.5px 15px 0px rgba(0,0,0,0.3);
+
+  /* Add a white border around the photo */
+  border: 4px solid white;
+
+
+  font-family: 'Indie Flower', cursive;
+}
+
+.p {
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.img-circle {
+
+  /* make the photo an image, and make it cover the size of the photo */
+  background-image: url("woman.jpg");
+  background-size: cover;
+
+  /* Make this a 100px circle */
+  border-radius: 200px;
+  width: 180px;
+  height: 180px;
+
+  /* center this circle */
+  margin: auto;
+
+  /* make the image pop over the top of the panel */
+  margin-top: -50px;
+
+  /* add a white border and drop shadow to the photo */
+  box-shadow: 0px 2.5px 15px 0px rgba(0,0,0,0.3);
+
+  /* Add a white border around the photo */
+  border: 4px solid white;
+
+}
+
+
+.img-circle-small {
+
+  /* make the photo an image, and make it cover the size of the photo */
+  background-size: cover;
+
+  /* Make this a 100px circle */
+  border-radius: 150px;
+  width: 120px;
+  height: 120px;
+
+  /* center this circle */
+  margin: auto;
+
+  /* make the image pop over the top of the panel */
+  margin-top: -50px;
+
+  /* add a white border and drop shadow to the photo */
+  box-shadow: 0px 2.5px 15px 0px rgba(0,0,0,0.3);
+
+  /* Add a white border around the photo */
+  border: 4px solid white;
+
+}
+
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3E4149;
+}
+
+li {
+    float: left;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.marketing{
+
+  /* Make the content take up half of the screen horizontally, but not larger than 500px */
+  width: 100%;
+
+  /* put a margin to the top and bottom of 100px, and center the content vertically */
+  margin: 15px auto;
+
+  /* put a border around the text content */
+  padding: 20px;
+
+  /* Make the content's background white */
+  background-color: transparent;
+
+  /* center align all of the text */
+  text-align: center;
+  color: #3E4149
+  ;
+
+
+}
+
+.wrapper{
+
+
+  /* Make the content take up half of the screen horizontally, but not larger than 500px */
+  width: 100%;
+
+  /* put a margin to the top and bottom of 100px, and center the content vertically */
+  margin: 15px auto;
+  margin-bottom: 50px;
+
+  /* put a border around the text content */
+  padding: 20px;
+
+  /* Make the content's background white */
+  background-color: transparent;
+
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.marketing h2 {
+  font-weight: normal;
+  font-size: 40px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.marketing p{
+  font-family: 'Indie Flower', cursive;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+.col {
+  text-align: center;
+  float: left;
+  margin-left: 180px;
+  width: 175px;
+}
+
+
+.beginning {
+  text-align: center;
+  float: left;
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+.follow {
+  text-align: center;
+  float: left;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: all .3s ease-out;
+}
+
+/*Speech Synthesis*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  /*background: #00B8A9; */
+}
+
+
+h1 {
+  margin-top: 0;
+}
+
+#msg {
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+#msg.not-supported strong {
+  color: #CC0000;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1) inset;
+}
+
+input[type="range"] {
+  width: 300px;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  width: 150px;
+}
+
+.option {
+  margin: 1em 0;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 0.8em;
+  background: #4B89AC;
+  border-bottom: 1px solid #3AB1C8;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  
+  box-shadow: 0px 2.5px 15px 0px rgba(0,0,0,0.3);
+}
+
+button:hover, button:focus {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 1;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  position: fixed;
+  bottom: -10px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #3E4149;
+}
+
+
+

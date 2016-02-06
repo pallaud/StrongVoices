@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title> Strong voice </title>
+
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+
+  <div class="background">
+  </div>
+
+
+
+  <nav class="lighten-1" role="navigation">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+  <ul class="nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="./index.html">Home</a></li>
+    <li role="presentation"><a href="#">About us</a></li>
+    <li role="presentation"><a href="./category.html">Find Your Words</a></li>    
+    <li role="presentation"><a href="./sentence.html">Make Your Own Sentence</a></li>
+    <li role="presentation"><a href="./vocabulary.html">My Vocabulary</a></li>
+  </ul>
+
+  <div class="content">
+    <h1 class="name"><strong> My Vocabulary <strong></h1>
+
+<!--     <div id="js">
+      <script type="text/javascript">
+        // Server request
+          var http = new XMLHttpRequest();
+          http.onreadystatechange = function() {
+            if(http.readyState == 4 && http.status == 200) {
+              console.log("in");
+            } 
+          }
+          http.open("GET", "/getting", false);
+          http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+          http.send(null);
+      </script>
+    </div> -->
+
+<div class="newtable">
+
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Word</th>
+                <th>Categorization</th>
+                <th>Frequency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Pizza</td>
+                <td>Emotions</td>
+                <td>64</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Pizza</td>
+                <td>Emotions</td>
+                <td>32</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Pizza</td>
+                <td>Things</td>
+                <td>16</td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Pizza</td>
+                <td>Actions</td>
+                <td>8</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>Pizza</td>
+                <td>Emotions</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>6</td>
+                <td>Pizza</td>
+                <td>Actions</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+    </div>
+</div>
+
+
+        <!-- Speech Synthesis -->
+        <div class="speech">
+
+
+          <p id="msg"></p>
+
+          <input type="text" name="speech-msg" id="speech-msg" x-webkit-speech>
+
+
+          <div class="option">
+            <h4><label for="voice"></label></h4>
+            <h4><select name="voice" id="voice"></select></h4>
+          </div>
+          <div class="option">
+            <h4><label for="volume">Volume</label></h4>
+            <h4><input type="range" min="0" max="1" step="0.1" name="volume" id="volume" value="1"></h4>
+          </div>
+          <h5><button id="speak" class="btn-large waves-effect wave-light cyan">Speak</button></h5>
+
+           <script src="./js/speechsynthesis.js"></script>
+          
+        </div>
+
+
+            
+
+
+</body>
+
+
+</HTML>
